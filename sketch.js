@@ -106,7 +106,7 @@ function draw() {
     cloudsGroup.setVelocityXEach(0);
     
     //change the trex animation
-    trex.changeAnimation("collided",trex_collided);
+    trex.addAnimation("collided",trex_collided);
     
     //set lifetime of the game objects so that they are never destroyed
     obstaclesGroup.setLifetimeEach(-1);
